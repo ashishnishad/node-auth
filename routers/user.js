@@ -33,7 +33,7 @@ router.get('/users/me/', auth, async (req,res)=>{
     res.send(req.user);
 })
 
-router.get('/', auth, async (req,res)=>{
+router.get('/',  async (req,res)=>{
     res.send("Welcome...");
 })
 
